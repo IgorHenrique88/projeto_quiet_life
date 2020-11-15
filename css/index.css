@@ -1,0 +1,45 @@
+body {
+    padding: 0%;
+    margin: 0%;
+
+}
+.conteudo {
+   background-image: url(/img/fundo01.jpg);
+   background-repeat: no-repeat;
+   width: 100%;
+   background-position: 30% 45%;
+   height: 100vh;
+   background-size: cover;
+   
+}
+.conteudo h1 {
+    text-align: center;
+    width: 250px;
+    padding: 0 20%;
+    color: white;
+}
+main {
+    background: #21221e;
+    color: black;
+    width: 400px;
+    height: 450px;
+    float: right;
+    margin: 80px 150px 0 0;
+    border-radius: 10px;
+    opacity: 0.90;
+}
+input {
+    height: 40px;
+    margin: 10px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buscador {
+    background: blue;
+    width: 80%;
+    float: 20%;    
+ 
+}
+
+
